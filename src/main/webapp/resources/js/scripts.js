@@ -12,6 +12,8 @@
         }
     });
     
+    
+    
     new WOW().init();
     
     $('a.page-scroll').bind('click', function(event) {
@@ -27,8 +29,14 @@
         $('.navbar-toggle:visible').click();
     });
 
+    
+    
     $('#galleryModal').on('show.bs.modal', function (e) {
-       $('#galleryImage').attr("src",$(e.relatedTarget).data("src"));
+       
+    	$('#galleryImage').attr("src",$(e.relatedTarget).data("src"));
+       //$('#hello').attr("src","http://www.charted.co/embed.js");
     });
+    
+    
 
 })(jQuery);

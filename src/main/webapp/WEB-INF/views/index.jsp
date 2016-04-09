@@ -4,14 +4,53 @@
 <html>
   <head>
     <meta charset="utf-8">
+	    
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,900,700,700italic,400italic,300italic,300,100italic,100,900italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Dosis:400,500,700,800,600,300,200' rel='stylesheet' type='text/css'>
+
+    
     <title>Landing Zero Free Bootstrap Theme with Video</title>
     <meta name="description" content="This is a free Bootstrap landing page theme created for BootstrapZero. Feature video background and one page design." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Codeply">
+    
+    
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
     <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet" />
+   
+	   
     <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+    
+    
     <link rel="stylesheet" href="resources/css/styles.css" />
+    <link href="resources/css/style.css" rel="stylesheet" type="text/css">
+    
+    
+    
+    <script type="text/javascript" src="resources/js/jquery-scrolltofixed.js"></script>
+	<script type="text/javascript" src="resources/js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="resources/js/jquery.isotope.js"></script>
+	<script type="text/javascript" src="resources/js/wow.js"></script>
+	<script type="text/javascript" src="resources/js/classie.js"></script>
+    
+    
+    
+	<link href="resources/css/font-awesome.css" rel="stylesheet" type="text/css">
+	<link href="resources/css/responsive.css" rel="stylesheet" type="text/css">
+	<link href="resources/css/animate.css" rel="stylesheet" type="text/css">
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
   </head>
   <body>
     <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
@@ -23,47 +62,58 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#first"><i class="ion-ios-analytics-outline"></i> Landing Zero</a>
+                <a class="navbar-brand page-scroll" href="#first">
+
+
+                </a>
             </div>
             <div class="navbar-collapse collapse" id="bs-navbar">
                 <ul class="nav navbar-nav">
                     <li>
                         <a class="page-scroll" href="#one">Intro</a>
                     </li>
+                    <!-- 
                     <li>
                         <a class="page-scroll" href="#two">Highlights</a>
                     </li>
+                     -->
                     <li>
-                        <a class="page-scroll" href="#three">Gallery</a>
+                        <a class="page-scroll" href="#three_">Analysis</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#four">Features</a>
+                        <a class="page-scroll" href="#four">Process</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#last">Contact</a>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" data-toggle="modal" title="A free Bootstrap video landing theme" href="#aboutModal">About</a>
+                        <a class="page-scroll" href="#team">Contact</a>
                     </li>
                 </ul>
+               
+               
+               
             </div>
         </div>
     </nav>
+    
     <header id="first">
         <div class="header-content">
             <div class="inner">
-                <h1 class="cursive">Simple, One Page Design</h1>
+                <h1 style="font-size: 88px;" class="cursive">부국제를 부탁해!</h1>
                 <h4>A free landing page theme with video background</h4>
                 <hr>
-                <a href="#video-background" id="toggleVideo" data-toggle="collapse" class="btn btn-primary btn-xl">Toggle Video</a> &nbsp; <a href="#one" class="btn btn-primary btn-xl page-scroll">Get Started</a>
+                <a href="#one" class="btn btn-primary btn-xl page-scroll">START</a>
             </div>
         </div>
-        <video autoplay="" loop="" class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Traffic-blurred2.jpg" id="video-background">
-            <source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Traffic-blurred2.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
-        </video>
+        
+        <div id="video_container">
+	       <video id="videobcg" autoplay="" loop="" class="fillWidth fadeIn wow collapse in" data-wow-delay="0" 
+	        id="video-background">
+	       	<source src="resources/[mix]2015biff2.mp4" type="video/mp4">
+	           Your browser does not support the video tag. I suggest you upgrade your browser.
+	       </video>
+	     </div>  
+	     
     </header>
+    
     <section class="bg-primary" id="one">
         <div class="container">
             <div class="row">
@@ -71,13 +121,15 @@
                     <h2 class="margin-top-0 text-primary">Built On The Bootstrap Grid</h2>
                     <br>
                     <p class="text-faded">
-                        Bootstrap's responsive grid comes in 4 sizes or "breakpoints": tiny (xs), small(sm), medium(md) and large(lg). These 4 grid sizes enable you create responsive layouts that behave accordingly on different devices.
-                    </p>
-                    <a href="#three" class="btn btn-default btn-xl page-scroll">Learn More</a>
+                       부산국제영화제는 항구의 도시 부산에 열리는 국내 최초의 국제영화제입니다. 1996년 시작하여 2015년에 20회를 맞았으며 한국을 넘어 아시아, 전세계의 영화 발전을 도모하고 있습니다.</p>
+                    <a href="#three1" class="btn btn-default btn-xl page-scroll">Learn More</a>
                 </div>
             </div>
         </div>
     </section>
+    
+    
+    <!-- 
     <section id="two">
         <div class="container">
             <div class="row">
@@ -87,6 +139,7 @@
                 </div>
             </div>
         </div>
+        
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 text-center">
@@ -113,12 +166,45 @@
             </div>
         </div>
     </section>
+     -->
+    
+    
     <section id="three" class="no-padding">
         <div class="container-fluid">
             <div class="row no-gutter">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="//splashbase.s3.amazonaws.com/unsplash/regular/photo-1430916273432-273c2db881a0%3Fq%3D75%26fm%3Djpg%26w%3D1080%26fit%3Dmax%26s%3Df047e8284d2fdc1df0fd57a5d294614d">
-                        <img src="//splashbase.s3.amazonaws.com/unsplash/regular/photo-1430916273432-273c2db881a0%3Fq%3D75%26fm%3Djpg%26w%3D1080%26fit%3Dmax%26s%3Df047e8284d2fdc1df0fd57a5d294614d" class="img-responsive" alt="Image 1">
+            
+            
+                <div class="col-lg-4 col-sm-3">
+                    <a href="#galleryModal1" class="gallery-box" data-toggle="modal" data-src="//splashbase.s3.amazonaws.com/unsplash/regular/photo-1430916273432-273c2db881a0%3Fq%3D75%26fm%3Djpg%26w%3D1080%26fit%3Dmax%26s%3Df047e8284d2fdc1df0fd57a5d294614d">
+                       
+                       <!--  첫번째 그림  -->
+                        <img  src="resources/img/nation_cover_banner1_.png" 
+                        class="img-responsive" alt="Image 1">
+                       
+                       
+                        <div  class="gallery-box-caption">
+                        	<hr style="opacity:0;" />
+                        	<hr style="opacity:0;" />
+                        	<hr style="opacity:0;" />
+                        	<hr id="three1" style="opacity:0;" />
+                        	<hr style="opacity:0;" />
+                        	<hr style="opacity:0;" />
+                        	
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-3">
+                    <a href="#galleryModal2" class="gallery-box" data-toggle="modal" data-src="//splashbase.s3.amazonaws.com/getrefe/regular/tumblr_nqune4OGHl1slhhf0o1_1280.jpg">
+                        
+                        <!-- 두.번째 그림  -->
+                        <img src="resources/img/program_note_cover_banner2.png" 
+                        class="img-responsive" alt="Image 2">
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
                                 <div>
@@ -128,57 +214,16 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="//splashbase.s3.amazonaws.com/getrefe/regular/tumblr_nqune4OGHl1slhhf0o1_1280.jpg">
-                        <img src="//splashbase.s3.amazonaws.com/getrefe/regular/tumblr_nqune4OGHl1slhhf0o1_1280.jpg" class="img-responsive" alt="Image 2">
-                        <div class="gallery-box-caption">
-                            <div class="gallery-box-content">
-                                <div>
-                                    <i class="icon-lg ion-ios-search"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="//splashbase.s3.amazonaws.com/unsplash/regular/photo-1433959352364-9314c5b6eb0b%3Fq%3D75%26fm%3Djpg%26w%3D1080%26fit%3Dmax%26s%3D3b9bc6caa190332e91472b6828a120a4">
-                        <img src="//splashbase.s3.amazonaws.com/unsplash/regular/photo-1433959352364-9314c5b6eb0b%3Fq%3D75%26fm%3Djpg%26w%3D1080%26fit%3Dmax%26s%3D3b9bc6caa190332e91472b6828a120a4" class="img-responsive" alt="Image 3">
-                        <div class="gallery-box-caption">
-                            <div class="gallery-box-content">
-                                <div>
-                                    <i class="icon-lg ion-ios-search"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="//splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-moto-drawing-illusion-nabeel-1440x960.jpg">
-                        <img src="//splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-moto-drawing-illusion-nabeel-1440x960.jpg" class="img-responsive" alt="Image 4">
-                        <div class="gallery-box-caption">
-                            <div class="gallery-box-content">
-                                <div>
-                                    <i class="icon-lg ion-ios-search"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="//splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-new-york-crosswalk-nabeel-1440x960.jpg">
-                        <img src="//splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-new-york-crosswalk-nabeel-1440x960.jpg" class="img-responsive" alt="Image 5">
-                        <div class="gallery-box-caption">
-                            <div class="gallery-box-content">
-                                <div>
-                                    <i class="icon-lg ion-ios-search"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="//splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-clothes-exotic-travel-nabeel-1440x960.jpg">
-                        <img src="//splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-clothes-exotic-travel-nabeel-1440x960.jpg" class="img-responsive" alt="Image 6">
+                
+                
+                
+                
+                <div class="col-lg-4 col-sm-3">
+                    <a href="#galleryModal3" class="gallery-box" data-toggle="modal" data-src="//splashbase.s3.amazonaws.com/unsplash/regular/photo-1433959352364-9314c5b6eb0b%3Fq%3D75%26fm%3Djpg%26w%3D1080%26fit%3Dmax%26s%3D3b9bc6caa190332e91472b6828a120a4">
+                        
+                        <!--  세.번째 그림  -->
+                        <img src="resources/img/genre_cover_banner3.png" 
+                        class="img-responsive" alt="Image 3">
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
                                 <div>
@@ -191,178 +236,298 @@
             </div>
         </div>
     </section>
+    
+    
+    
     <section class="container-fluid" id="four">
         <div class="row">
             <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
-                <h2 class="text-center text-primary">Features</h2>
+                <h2 class="text-center text-primary">Process</h2>
                 <hr>
+                
+                
                 <div class="media wow fadeInRight">
-                    <h3>Simple</h3>
+                    <h2 style="color:red; font-size: 20px;">주제 선정</h2>
                     <div class="media-body media-middle">
                         <p>What could be easier? Get started fast with this landing page starter theme.</p>
                     </div>
                     <div class="media-right">
-                        <i class="icon-lg ion-ios-bolt-outline"></i>
+                  		<i class="fa fa-check-square-o fa-4x" style="color:red;"></i>
                     </div>
                 </div>
                 <hr>
+                
+                
                 <div class="media wow fadeIn">
-                    <h3>Free</h3>
+                    <h2 style="color:red; font-size: 20px;">데이터 수집</h2>
                     <div class="media-left">
-                        <a href="#alertModal" data-toggle="modal" data-target="#alertModal"><i class="icon-lg ion-ios-cloud-download-outline"></i></a>
+                       <i class="fa fa-search fa-4x" style="color:red;"></i>
                     </div>
                     <div class="media-body media-middle">
                         <p>Yes, please. Grab it for yourself, and make something awesome with this.</p>
                     </div>
                 </div>
                 <hr>
+                
+                
                 <div class="media wow fadeInRight">
-                    <h3>Unique</h3>
+                    <h2 style="color:red; font-size: 20px;">데이터 정제</h2>
                     <div class="media-body media-middle">
                         <p>Because you don't want your Bootstrap site, to look like a Bootstrap site.</p>
                     </div>
                     <div class="media-right">
-                        <i class="icon-lg ion-ios-snowy"></i>
+                        <i class="fa fa-filter fa-4x" style="color:red;"></i>
                     </div>
                 </div>
                 <hr>
+                
+                
                 <div class="media wow fadeIn">
-                    <h3>Popular</h3>
+                    <h2 style="color:red; font-size: 20px;">데이터 분석</h2>
                     <div class="media-left">
-                        <i class="icon-lg ion-ios-heart-outline"></i>
+                       <i class="fa fa-cogs fa-4x" style="color:red;"></i>
                     </div>
                     <div class="media-body media-middle">
                         <p>There's good reason why Bootstrap is the most used frontend framework in the world.</p>
                     </div>
                 </div>
                 <hr>
+                
+                
                 <div class="media wow fadeInRight">
-                    <h3>Tested</h3>
+                    <h2 style="color:red; font-size: 20px;">데이터 시각화</h2>
                     <div class="media-body media-middle">
-                        <p>Bootstrap is matured and well-tested. It's a stable codebase that provides consistency.</p>
+                        <p>Because you don't want your Bootstrap site, to look like a Bootstrap site.</p>
                     </div>
                     <div class="media-right">
-                        <i class="icon-lg ion-ios-flask-outline"></i>
+                       <i class="fa fa-eye fa-4x" style="color:red;"></i>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    
+    
+    
     <aside class="bg-dark">
-        <div class="container text-center">
+        <div class="container text-center" >
             <div class="call-to-action">
-                <h2 class="text-primary">Get Started</h2>
-                <a href="http://www.bootstrapzero.com/bootstrap-template/landing-zero" target="ext" class="btn btn-default btn-lg wow flipInX">Free Download</a>
+                <h2 class="text-primary">What We Used</h2>
+                
             </div>
             <br>
             <hr/>
             <br>
+            
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1">
                     <div class="row">
-                        <h6 class="wide-space text-center">BOOTSTRAP IS BASED ON THESE STANDARDS</h6>
+                       
+             
+                        
+                        
                         <div class="col-sm-3 col-xs-6 text-center">
-                            <i class="icon-lg ion-social-html5-outline" title="html 5"></i>
+                           	<img src="resources/img/bootstrap_icon.png" style="width:160px; height:120px;"/>
                         </div>
+                        
+                        
                         <div class="col-sm-3 col-xs-6 text-center">
-                            <i class="icon-lg ion-social-sass" title="sass"></i>
+                           	<img src="resources/img/d3_js_icon_min.png" style="width:100px; height:100px;"/>
                         </div>
+                        
+                        
                         <div class="col-sm-3 col-xs-6 text-center">
-                            <i class="icon-lg ion-social-javascript-outline" title="javascript"></i>
+                           	<img src="resources/img/r_icon_min.png" style="width:100px; height:100px;"/>
                         </div>
+                        
                         <div class="col-sm-3 col-xs-6 text-center">
-                            <i class="icon-lg ion-social-css3-outline" title="css 3"></i>
+                           	<img src="resources/img/tableau_icon.png" style="width:190px; height:100px;"/>
                         </div>
+                        
+                        
                     </div>
                 </div>
             </div>
+            <a href="#team" target="ext" class="btn btn-primary btn-xl page-scroll"><h3>next</h3></a>
         </div>
     </aside>
-    <section id="last">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="margin-top-0 wow fadeIn">Get in Touch</h2>
-                    <hr class="primary">
-                    <p>We love feedback. Fill out the form below and we'll get back to you as soon as possible.</p>
-                </div>
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <form class="contact-form row">
-                        <div class="col-md-4">
-                            <label></label>
-                            <input type="text" class="form-control" placeholder="Name">
-                        </div>
-                        <div class="col-md-4">
-                            <label></label>
-                            <input type="text" class="form-control" placeholder="Email">
-                        </div>
-                        <div class="col-md-4">
-                            <label></label>
-                            <input type="text" class="form-control" placeholder="Phone">
-                        </div>
-                        <div class="col-md-12">
-                            <label></label>
-                            <textarea class="form-control" rows="9" placeholder="Your message here.."></textarea>
-                        </div>
-                        <div class="col-md-4 col-md-offset-4">
-                            <label></label>
-                            <button type="button" data-toggle="modal" data-target="#alertModal" class="btn btn-primary btn-block btn-lg">Send <i class="ion-android-arrow-forward"></i></button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer id="footer">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-6 col-sm-3 column">
-                    <h4>Information</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="">Products</a></li>
-                        <li><a href="">Services</a></li>
-                        <li><a href="">Benefits</a></li>
-                        <li><a href="">Developers</a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-6 col-sm-3 column">
-                    <h4>About</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Delivery Information</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms &amp; Conditions</a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-sm-3 column">
-                    <h4>Stay Posted</h4>
-                    <form>
-                        <div class="form-group">
-                          <input type="text" class="form-control" title="No spam, we promise!" placeholder="Tell us your email">
-                        </div>
-                        <div class="form-group">
-                          <button class="btn btn-primary" data-toggle="modal" data-target="#alertModal" type="button">Subscribe for updates</button>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-xs-12 col-sm-3 text-right">
-                    <h4>Follow</h4>
-                    <ul class="list-inline">
-                      <li><a rel="nofollow" href="" title="Twitter"><i class="icon-lg ion-social-twitter-outline"></i></a>&nbsp;</li>
-                      <li><a rel="nofollow" href="" title="Facebook"><i class="icon-lg ion-social-facebook-outline"></i></a>&nbsp;</li>
-                      <li><a rel="nofollow" href="" title="Dribble"><i class="icon-lg ion-social-dribbble-outline"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            <br/>
-            <span class="pull-right text-muted small"><a href="http://www.bootstrapzero.com">Landing Zero by BootstrapZero</a> ©2015 Company</span>
-        </div>
-    </footer>
-    <div id="galleryModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+   
+	   
+	   
+	<!--c-logo-part-end-->
+	<section class="main-section team" ><!--main-section team-start-->
+	  <div class="container">
+	    <h2 id="team" >Lovely Peaceful Amazing Sickly T_T</h2>
+	    <div class="team-leader-block clearfix">
+	      
+	      <div class="team-leader-box">
+	        </div>
+	      
+	      <div class="team-leader-box">
+	        <div class="team-leader  wow fadeInDown delay-06s">
+	          <div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
+	          <img src="resources/img/hyejin.jpeg" alt="">
+	          <ul>
+	            <li><a href="javascript:void(0)" class="fa-twitter"></a></li>
+	            <li><a href="javascript:void(0)" class="fa-facebook"></a></li>
+	            <li><a href="javascript:void(0)" class="fa-pinterest"></a></li>
+	            <li><a href="javascript:void(0)" class="fa-google-plus"></a></li>
+	          </ul>
+	        </div>
+	        <h3 class="wow fadeInDown delay-09s">이 혜 진</h3>
+	        <span class="wow fadeInDown delay-09s">Project Manager</span>
+	      
+	      <!-- 
+	        <p class="wow fadeInDown delay-06s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat.</p>
+	      -->
+	      </div>
+	      
+	      
+	      
+	      
+	      <div class="team-leader-box">
+	        <div class="team-leader wow fadeInDown delay-09s">
+	          <div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
+	          <img src="resources/img/dajeong.jpeg" alt="">
+	          <ul>
+	            <li><a href="javascript:void(0)" class="fa-twitter"></a></li>
+	            <li><a href="javascript:void(0)" class="fa-facebook"></a></li>
+	            <li><a href="javascript:void(0)" class="fa-pinterest"></a></li>
+	            <li><a href="javascript:void(0)" class="fa-google-plus"></a></li>
+	          </ul>
+	        </div>
+	        <h3 class="wow fadeInDown delay-09s">김 다 정</h3>
+	        <span class="wow fadeInDown delay-09s">Designer</span>
+	    
+		<!-- 
+	        <p class="wow fadeInDown delay-09s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat.</p>
+	      -->
+	      </div>
+	    
+	    
+	    	
+	    <div class="team-leader-box">
+	     </div>
+	    
+	    
+	      
+	      <div class="team-leader-box">
+	        <div class="team-leader wow fadeInDown delay-09s">
+	          <div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
+	          <img src="resources/img/huiyeon.jpeg" alt="">
+	          <ul>
+	            <li><a href="javascript:void(0)" class="fa-twitter"></a></li>
+	            <li><a href="javascript:void(0)" class="fa-facebook"></a></li>
+	            <li><a href="javascript:void(0)" class="fa-pinterest"></a></li>
+	            <li><a href="javascript:void(0)" class="fa-google-plus"></a></li>
+	          </ul>
+	        </div>
+	        <h3 class="wow fadeInDown delay-09s">김 희 연</h3>
+	        <span class="wow fadeInDown delay-09s">Designer</span>
+		
+		<!--         
+	        <p class="wow fadeInDown delay-09s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat.</p>
+	       -->
+	      </div>
+	      
+	      
+	      <div class="team-leader-box">
+	        <div class="team-leader wow fadeInDown delay-09s">
+	          <div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
+	          <img src="resources/img/sureyon.jpeg" alt="">
+	          <ul>
+	            <li><a href="javascript:void(0)" class="fa-twitter"></a></li>
+	            <li><a href="javascript:void(0)" class="fa-facebook"></a></li>
+	            <li><a href="javascript:void(0)" class="fa-pinterest"></a></li>
+	            <li><a href="javascript:void(0)" class="fa-google-plus"></a></li>
+	          </ul>
+	        </div>
+	        <h3 class="wow fadeInDown delay-09s">이 수 련</h3>
+	        <span class="wow fadeInDown delay-09s">Communicator</span>
+	       
+			<!-- 
+	        <p class="wow fadeInDown delay-09s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat.</p>
+	       -->
+	      </div>
+	      
+	      
+	      
+	       <div class="team-leader-box">
+	        <div class="team-leader wow fadeInDown delay-09s">
+	          <div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
+	          <img src="resources/img/bonobono.jpg" alt="">
+	          <ul>
+	            <li><a href="javascript:void(0)" class="fa-twitter"></a></li>
+	            <li><a href="javascript:void(0)" class="fa-facebook"></a></li>
+	            <li><a href="javascript:void(0)" class="fa-pinterest"></a></li>
+	            <li><a href="javascript:void(0)" class="fa-google-plus"></a></li>
+	          </ul>
+	        </div>
+	        <h3 class="wow fadeInDown delay-09s">김 병 규</h3>
+	        <span class="wow fadeInDown delay-09s">Developer</span>
+	       
+	       <!-- 
+	        <p class="wow fadeInDown delay-09s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat.</p>
+	      -->
+	      </div>
+	      
+	      
+	      
+	     <div class="team-leader-box">
+	        <div class="team-leader wow fadeInDown delay-09s">
+	          <div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
+	          <img src="resources/img/bonobono.jpg" alt="">
+	          <ul>
+	            <li><a href="javascript:void(0)" class="fa-twitter"></a></li>
+	            <li><a href="javascript:void(0)" class="fa-facebook"></a></li>
+	            <li><a href="javascript:void(0)" class="fa-pinterest"></a></li>
+	            <li><a href="javascript:void(0)" class="fa-google-plus"></a></li>
+	          </ul>
+	        </div>
+	        <h3 class="wow fadeInDown delay-09s">정 원 식</h3>
+	        <span class="wow fadeInDown delay-09s">Analyzer</span>
+	        
+	        <!-- 
+	        <p class="wow fadeInDown delay-09s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat.</p>
+	       -->
+	      </div>
+	      	
+	      
+	    
+	    </div>
+	  </div>
+	</section>
+	<!--main-section team-end-->
+	    
+	    
+	    
+	    
+	
+    
+    
+    
+    
+    
+    
+    <div id="galleryModal1" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-lg">
         <div class="modal-content">
         	<div class="modal-body">
-        		<img src="//placehold.it/1200x700/222?text=..." id="galleryImage" class="img-responsive" />
+        	
+        		<!--모달 박스 플레이스홀드. -->
+        		
+        		<img src="resources/img/nation_banner1.png" 
+                        class="img-responsive" alt="Image 1">	
+        	
+        		<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+        		<div class='tableauPlaceholder' style='width: 868px; height: 660px;'>
+        		<noscript><a href='#'><img alt='대시보드 3 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;na&#47;nations_6&#47;3_1&#47;1_rss.png' style='border: none' /></a>
+        		</noscript><object class='tableauViz' width='868' height='660' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='nations_6&#47;3_1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;na&#47;nations_6&#47;3_1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showTabs' value='y' /></object></div>
+        		
+        		
+        		<img src="resources/img/nation_banner2.png" 
+                        class="img-responsive" alt="Image 1">	
+        	
         		<p>
         		    <br/>
         		    <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Close <i class="ion-android-close"></i></button>
@@ -371,6 +536,109 @@
         </div>
         </div>
     </div>
+    
+    
+     <div id="galleryModal2" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        	<div class="modal-body">
+        	
+        		<!--모달 박스 플레이스홀드. -->
+        		
+        		<img src="resources/img/program_note_banner1.png" 
+                        class="img-responsive" alt="Image 1">	
+        	
+        	
+        		<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'>
+        		</script><div class='tableauPlaceholder' style='width: 868px; height: 469px;'>
+        		<noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;th&#47;theme_all_0&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript>
+        		<object class='tableauViz' width='868' height='469' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='theme_all_0&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;th&#47;theme_all_0&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showTabs' value='y' /></object></div>
+        	
+        	
+        		
+        		<img src="resources/img/program_note_banner2.png" 
+                        class="img-responsive" alt="Image 1">	
+                        
+                        
+                        
+                 <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'>
+                 </script><div class='tableauPlaceholder' style='width: 868px; height: 646px;'><noscript>
+                 <a href='#'><img alt='대시보드 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;th&#47;theme_bar_0&#47;1&#47;1_rss.png' style='border: none' /></a></noscript>
+                 <object class='tableauViz' width='868' height='646' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='theme_bar_0&#47;1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;th&#47;theme_bar_0&#47;1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showTabs' value='y' /></object></div>
+                
+                
+                <img src="resources/img/program_note_banner3.png" 
+                class="img-responsive" alt="Image 1">	
+        		
+        		<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+        		<div class='tableauPlaceholder' style='width: 868px; height: 869px;'><noscript><a href='#'>
+        		<img alt='대시보드 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_5&#47;_5017&#47;1_1&#47;1_rss.png' style='border: none' /></a>
+        		</noscript><object class='tableauViz' width='868' height='869' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='_5017&#47;1_1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_5&#47;_5017&#47;1_1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showTabs' value='y' /></object></div>
+        		
+        		
+        		<p>
+        		    <br/>
+        		    <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Close <i class="ion-android-close"></i></button>
+        		</p>
+        	</div>
+        </div>
+        </div>
+    </div>
+    
+    
+    
+     <div id="galleryModal3" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        	<div class="modal-body">
+        	
+        		<!--모달 박스 플레이스홀드. -->
+        		
+        		<img src="resources/img/title_banner1.png" 
+                        class="img-responsive" alt="Image 1">	
+        	
+        		
+        		<!-- 
+        		 <script src="//d3js.org/d3.v3.min.js"></script>
+				 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600"/>
+				 <link rel="stylesheet" type="text/css" href="resources/css/sequences.css"/>
+				    
+				
+			    <div id="main">
+			      <div id="sequence"></div>
+			      <div id="chart">
+			        <div id="explanation" style="visibility: hidden;">
+			          <span id="percentage"></span><br/>
+			          부산국제영화제 장르
+			        </div>
+			      </div>
+			    </div>
+			    <div id="sidebar">
+			      <input type="checkbox" id="togglelegend"> Legend<br/>
+			      <div id="legend" style="visibility: hidden;"></div>
+			    </div>
+			
+			    <script type="text/javascript" src="resources/js/sequences.js"></script>
+			    <script type="text/javascript">
+			      // Hack to make this example display correctly in an iframe on bl.ocks.org
+			      d3.select(self.frameElement).style("height", "700px");
+			 	 </script> 
+    			-->
+    			
+    			
+    			
+        		<p>
+        		    <br/>
+        		    <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Close <i class="ion-android-close"></i></button>
+        		</p>
+        	</div>
+        </div>
+        </div>
+    </div>
+    
+    
+    
+    
     <div id="aboutModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
         <div class="modal-content">
@@ -391,6 +659,7 @@
         </div>
         </div>
     </div>
+    
     <div id="alertModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-sm">
         <div class="modal-content">
@@ -404,6 +673,7 @@
         </div>
         </div>
     </div>
+    
     <!--scripts loaded here from cdn for performance -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
