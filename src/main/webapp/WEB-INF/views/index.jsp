@@ -1,6 +1,7 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ page session="false" %>
-<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
 <html>
   <head>
     <meta charset="utf-8">
@@ -44,11 +45,6 @@
     
     
     
-   
-    
-    
-    
-    
     
     
   </head>
@@ -73,7 +69,7 @@
                         <a class="page-scroll" href="#one">Intro</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#three_">Analysis</a>
+                        <a class="page-scroll" href="#three1">Analysis</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#four">Process</a>
@@ -82,9 +78,6 @@
                         <a class="page-scroll" href="#team">Who are We?</a>
                     </li>
                 </ul>
-               
-               
-               
             </div>
         </div>
     </nav>
@@ -92,19 +85,20 @@
     <header id="first">
         <div class="header-content">
             <div class="inner">
-                <h1 style="font-size: 88px;" class="cursive">부국제를 부탁해!</h1>
+                <h1 style="font-size: 90px;" class="cursive">부국제를 부탁해!</h1>
                 <h4>데이터 시각화를 통해 부산 국제 영화제 바라보기</h4>
                 <hr>
                 <a href="#one" class="btn btn-primary btn-xl page-scroll">START</a>
             </div>
+            
         </div>
-        
         <div id="video_container">
-	       <video id="videobcg" autoplay="" loop="" class="fillWidth fadeIn wow collapse in" data-wow-delay="0" 
+	       <video id="videobcg" autoplay="" loop="" class="fillWidth fillHeight fadeIn wow collapse in" data-wow-delay="0" 
 	        id="video-background">
 	       	<source src="resources/[mix]2015biff2.mp4" type="video/mp4">
 	           Your browser does not support the video tag. I suggest you upgrade your browser.
 	       </video>
+        
 	     </div>  
 	     
     </header>
@@ -112,12 +106,15 @@
     <section class="bg-primary" id="one">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
-                    <h2 class="margin-top-0 text-primary">부산 국제 영화제는....</h2>
-                    <br>
+                <div class=" text-center">
+                    <h2 class="margin-top-0 text-primary">부산 국제 영화제를 아시나요 ? </h2>
+                    
+                    <img src="resources/img/history1.png" style="width:1440px; height:400px;"/>
+                    
+                    <br/><br/><br/><br/>
+                    
                     <p class="text-faded">
-                       부산국제영화제는 항구의 도시 부산에 열리는 국내 최초의 국제영화제입니다. 1996년 시작하여 2015년에 20회를 맞았으며 한국을 넘어 아시아, 전세계의 영화 발전을 도모하고 있습니다.</p>
-                    <a href="#three1" class="btn btn-default btn-xl page-scroll">Learn More</a>
+                       <a href="#three1" class="btn btn-default btn-xl page-scroll">Learn More</a>
                 </div>
             </div>
         </div>
@@ -366,6 +363,25 @@
 	     </div>
 	    
 	    
+	    
+	    <div class="team-leader-box">
+	        <div class="team-leader wow fadeInDown delay-09s">
+	          <div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
+	          <img src="resources/img/bk2.jpeg" alt="">
+	          <ul>
+	            <li><a href="javascript:void(0)" class="fa-twitter"></a></li>
+	            <li><a href="javascript:void(0)" class="fa-facebook"></a></li>
+	            <li><a href="javascript:void(0)" class="fa-pinterest"></a></li>
+	            <li><a href="javascript:void(0)" class="fa-google-plus"></a></li>
+	          </ul>
+	        </div>
+	        <h3 class="wow fadeInDown delay-09s">김 병 규</h3>
+	        <span class="wow fadeInDown delay-09s">Developer</span>
+	       
+	       <!-- 
+	        <p class="wow fadeInDown delay-09s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat.</p>
+	      -->
+	      </div>
 	      
 	      <div class="team-leader-box">
 	        <div class="team-leader wow fadeInDown delay-09s">
@@ -387,6 +403,7 @@
 	      </div>
 	      
 	      
+	      
 	      <div class="team-leader-box">
 	        <div class="team-leader wow fadeInDown delay-09s">
 	          <div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
@@ -401,31 +418,12 @@
 	        <h3 class="wow fadeInDown delay-09s">이 수 련</h3>
 	        <span class="wow fadeInDown delay-09s">Communicator</span>
 	       
-			<!-- 
-	        <p class="wow fadeInDown delay-09s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat.</p>
-	       -->
+	        <p class="wow fadeInDown delay-09s"></p>
+	
 	      </div>
 	      
 	      
 	      
-	       <div class="team-leader-box">
-	        <div class="team-leader wow fadeInDown delay-09s">
-	          <div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
-	          <img src="resources/img/bonobono.jpg" alt="">
-	          <ul>
-	            <li><a href="javascript:void(0)" class="fa-twitter"></a></li>
-	            <li><a href="javascript:void(0)" class="fa-facebook"></a></li>
-	            <li><a href="javascript:void(0)" class="fa-pinterest"></a></li>
-	            <li><a href="javascript:void(0)" class="fa-google-plus"></a></li>
-	          </ul>
-	        </div>
-	        <h3 class="wow fadeInDown delay-09s">김 병 규</h3>
-	        <span class="wow fadeInDown delay-09s">Developer</span>
-	       
-	       <!-- 
-	        <p class="wow fadeInDown delay-09s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin cursus. Dolor sit amet, consectetur adipiscing elit proin consequat.</p>
-	      -->
-	      </div>
 	      
 	      
 	      
