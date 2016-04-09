@@ -72,11 +72,6 @@
                     <li>
                         <a class="page-scroll" href="#one">Intro</a>
                     </li>
-                    <!-- 
-                    <li>
-                        <a class="page-scroll" href="#two">Highlights</a>
-                    </li>
-                     -->
                     <li>
                         <a class="page-scroll" href="#three_">Analysis</a>
                     </li>
@@ -84,7 +79,7 @@
                         <a class="page-scroll" href="#four">Process</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Contact</a>
+                        <a class="page-scroll" href="#team">Who are We?</a>
                     </li>
                 </ul>
                
@@ -98,7 +93,7 @@
         <div class="header-content">
             <div class="inner">
                 <h1 style="font-size: 88px;" class="cursive">부국제를 부탁해!</h1>
-                <h4>A free landing page theme with video background</h4>
+                <h4>데이터 시각화를 통해 부산 국제 영화제 바라보기</h4>
                 <hr>
                 <a href="#one" class="btn btn-primary btn-xl page-scroll">START</a>
             </div>
@@ -118,7 +113,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
-                    <h2 class="margin-top-0 text-primary">Built On The Bootstrap Grid</h2>
+                    <h2 class="margin-top-0 text-primary">부산 국제 영화제는....</h2>
                     <br>
                     <p class="text-faded">
                        부산국제영화제는 항구의 도시 부산에 열리는 국내 최초의 국제영화제입니다. 1996년 시작하여 2015년에 20회를 맞았으며 한국을 넘어 아시아, 전세계의 영화 발전을 도모하고 있습니다.</p>
@@ -128,45 +123,6 @@
         </div>
     </section>
     
-    
-    <!-- 
-    <section id="two">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="margin-top-0 text-primary">Flexible Layouts</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 text-center">
-                    <div class="feature">
-                        <i class="icon-lg ion-android-laptop wow fadeIn" data-wow-delay=".3s"></i>
-                        <h3>Responsive</h3>
-                        <p class="text-muted">Your site looks good everywhere</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 text-center">
-                    <div class="feature">
-                        <i class="icon-lg ion-social-sass wow fadeInUp" data-wow-delay=".2s"></i>
-                        <h3>Customizable</h3>
-                        <p class="text-muted">Easy to theme and customize with SASS</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 text-center">
-                    <div class="feature">
-                        <i class="icon-lg ion-ios-star-outline wow fadeIn" data-wow-delay=".3s"></i>
-                        <h3>Consistent</h3>
-                        <p class="text-muted">A mature, well-tested, stable codebase</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-     -->
     
     
     <section id="three" class="no-padding">
@@ -249,7 +205,7 @@
                 <div class="media wow fadeInRight">
                     <h2 style="color:red; font-size: 20px;">주제 선정</h2>
                     <div class="media-body media-middle">
-                        <p>What could be easier? Get started fast with this landing page starter theme.</p>
+                        <p>각자 관심사를 토대로 공공데이터포털과 네이버데이터랩, 영화 관련 기관 홈페이지를 리서치하여 주제를 선정하였습니다.</p>
                     </div>
                     <div class="media-right">
                   		<i class="fa fa-check-square-o fa-4x" style="color:red;"></i>
@@ -264,7 +220,7 @@
                        <i class="fa fa-search fa-4x" style="color:red;"></i>
                     </div>
                     <div class="media-body media-middle">
-                        <p>Yes, please. Grab it for yourself, and make something awesome with this.</p>
+                        <p>부산국제영화제 공식 홈페이지의 데이터를 R 크롤링 기법으로 수집하였습니다.</p>
                     </div>
                 </div>
                 <hr>
@@ -273,7 +229,7 @@
                 <div class="media wow fadeInRight">
                     <h2 style="color:red; font-size: 20px;">데이터 정제</h2>
                     <div class="media-body media-middle">
-                        <p>Because you don't want your Bootstrap site, to look like a Bootstrap site.</p>
+                        <p>서로 다른 국가 표기를 통일하고, 불필요한 데이터를 제거하는 등 R을 이용해 데이터를 분석하기 알맞은 형태로 정제하였습니다.</p>
                     </div>
                     <div class="media-right">
                         <i class="fa fa-filter fa-4x" style="color:red;"></i>
@@ -288,7 +244,7 @@
                        <i class="fa fa-cogs fa-4x" style="color:red;"></i>
                     </div>
                     <div class="media-body media-middle">
-                        <p>There's good reason why Bootstrap is the most used frontend framework in the world.</p>
+                        <p>R에서 wordcloud, ggplot 등의 패키지를 활용하여 데이터 빈도와 텍스트 분석을 하였습니다.</p>
                     </div>
                 </div>
                 <hr>
@@ -297,7 +253,7 @@
                 <div class="media wow fadeInRight">
                     <h2 style="color:red; font-size: 20px;">데이터 시각화</h2>
                     <div class="media-body media-middle">
-                        <p>Because you don't want your Bootstrap site, to look like a Bootstrap site.</p>
+                        <p>d3.js와 Tableau를 이용해 그래프를 만들었습니다. bootstrap의 소스 코드를 활용해 웹의 기본적인 골격을 잡고, 웹디자인을 진행하였습니다.</p>
                     </div>
                     <div class="media-right">
                        <i class="fa fa-eye fa-4x" style="color:red;"></i>
@@ -357,7 +313,7 @@
 	<!--c-logo-part-end-->
 	<section class="main-section team" ><!--main-section team-start-->
 	  <div class="container">
-	    <h2 id="team" >Lovely Peaceful Amazing Sickly T_T</h2>
+	    <h2 id="team" >We make it !</h2>
 	    <div class="team-leader-block clearfix">
 	      
 	      <div class="team-leader-box">
@@ -476,7 +432,7 @@
 	     <div class="team-leader-box">
 	        <div class="team-leader wow fadeInDown delay-09s">
 	          <div class="team-leader-shadow"><a href="javascript:void(0)"></a></div>
-	          <img src="resources/img/bonobono.jpg" alt="">
+	          <img src="resources/img/wonsik.jpeg" alt="">
 	          <ul>
 	            <li><a href="javascript:void(0)" class="fa-twitter"></a></li>
 	            <li><a href="javascript:void(0)" class="fa-facebook"></a></li>
@@ -594,39 +550,11 @@
         	
         		<!--모달 박스 플레이스홀드. -->
         		
-        		<img src="resources/img/title_banner1.png" 
+        		<img src="resources/img/genre_banner.png" 
                         class="img-responsive" alt="Image 1">	
         	
         		
-        		<!-- 
-        		 <script src="//d3js.org/d3.v3.min.js"></script>
-				 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600"/>
-				 <link rel="stylesheet" type="text/css" href="resources/css/sequences.css"/>
-				    
-				
-			    <div id="main">
-			      <div id="sequence"></div>
-			      <div id="chart">
-			        <div id="explanation" style="visibility: hidden;">
-			          <span id="percentage"></span><br/>
-			          부산국제영화제 장르
-			        </div>
-			      </div>
-			    </div>
-			    <div id="sidebar">
-			      <input type="checkbox" id="togglelegend"> Legend<br/>
-			      <div id="legend" style="visibility: hidden;"></div>
-			    </div>
-			
-			    <script type="text/javascript" src="resources/js/sequences.js"></script>
-			    <script type="text/javascript">
-			      // Hack to make this example display correctly in an iframe on bl.ocks.org
-			      d3.select(self.frameElement).style("height", "700px");
-			 	 </script> 
-    			-->
-    			
-    			
-    			
+				<iframe  src="http://127.0.0.1:8080/butterfly/" width="100%" height="800px" frameborder=0 framespacing=0 marginheight=0 marginwidth=0 scrolling=no vspace=0></iframe>
         		<p>
         		    <br/>
         		    <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Close <i class="ion-android-close"></i></button>

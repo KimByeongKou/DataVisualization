@@ -25,4 +25,12 @@ public class HomeController {
 		return "index";
 	}
 	
+	@RequestMapping(value = "/d3", method = RequestMethod.GET)
+	public String home2() {
+		
+		logger.info("Index File called....!");
+		
+		return "d3";
+	}
+	
 }
